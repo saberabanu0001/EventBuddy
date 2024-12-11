@@ -1,0 +1,75 @@
+/* General Navbar Styling */
+.navbar {
+  padding: 15px 50px; /* Adjusted for better spacing */
+  background-color: #333; /* Dark background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Brand Logo/Text Styling */
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Georgia', serif; /* Elegant serif font for an italic effect */
+  padding-left: 20px;
+  font-size: 32px; /* Slightly smaller for balance */
+  color: #fff; /* White color for better visibility */
+  text-transform: capitalize;
+}
+
+/* Navbar Items Container */
+.navbar-nav {
+  padding-left: 150px; /* Reduced padding for balance */
+}
+
+/* Navbar Links Styling */
+.nav-link {
+  font-weight: bold;
+  font-family: 'Arial', sans-serif; /* Clean sans-serif for readability */
+  color: #f0f0f0 !important; /* Light color on dark background */
+  margin-left: 40px; /* Reduced for tighter layout */
+  padding: 8px 15px; /* Added padding for better click area */
+  border-radius: 15px;
+  transition: transform 0.4s, background-color 0.4s; /* Smoother transitions */
+}
+
+/* Hover Effects for Navbar Links */
+.nav-link:hover {
+  transform: translateY(-5px); /* Subtle lift effect */
+  background-color: #e74c3c; /* Soft red background */
+  color: #fff !important; /* Ensures text remains visible */
+}
+
+/* Icon Styling */
+.icon-link {
+  font-size: 20px; /* Adjusted icon size */
+  color: #f0f0f0; /* Icon color */
+  margin-left: 20px; /* Spacing between icons */
+  transition: color 0.3s, transform 0.3s; /* Smooth transition for color and hover effect */
+  text-decoration: none;
+}
+
+/* Hover Effects for Icons */
+.icon-link:hover {
+  color: #e74c3c; /* Change color on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Aligning Icons to the Right */
+.d-flex.align-items-center {
+  margin-left: auto; /* Push the icons to the right */
+}
+.container{
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+#translateContainer {
+  position: fixed;
+  right: 20px;
+  top: 70px;
+  z-index: 1000;
+  display: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
